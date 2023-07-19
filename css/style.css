@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    background-color: #f5f4f8;
+}
+.nav-container{
+
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.logo-container{
+
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img{
+
+    width: 100px;
+    margin-right: 100px;
+}
+.logo-container p{
+    font-size: 30px;
+  
+}
+
+.nav-items-container{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(29, 27, 27);
+}
+
+.nav-items-container .follow-btn{
+    background-color: #d8d3d6;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #3a3637;
+    text-align: center;
+    
+}
+
+.fa-brands{
+    font-size: 60px;
+}
+.banner-button{
+    background-color: #4EC5F7;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.banner-container{
+
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    background-color: #e6e9eb;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.banner-text{
+
+    width: 50%;
+    text-align: center;
+}
+.banner-img{
+ 
+    width: 50%;
+   
+}
+.banner-img img{
+    width: 100%;
+
+    border-radius: 10px;
+    /* height: 100%; */
+    object-fit: cover;
+}
+.lastpart{
+    background-color: black;
+    padding: 100px;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+}
+.footer p{
+    text-align: center;
+    color: #f7f4f4;
+    
+}
+.icons-container{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0 auto 10px;
+}
+
+.nav-items-container2{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-items-container2 a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+.banner-container2{
+
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+
+}
