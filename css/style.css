@@ -170,3 +170,135 @@ nav {
 .banner-image {
     width: 50%;
 }
+/* gamer part */
+
+.gamer-sec-container {
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 50px 240px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    ;
+}
+
+.gamer-sec-img {
+    width: 100%;
+}
+
+.gamer-sec-img img {
+    width: 100%;
+}
+
+.gamer-content {
+    width: 80%;
+    text-align: end;
+    padding-left: 50px;
+}
+
+.gamer-content h2 {
+    margin-bottom: 20px;
+}
+
+.know-btn {
+    margin: 25px 0px;
+}
+
+.quote {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 5px;
+    font: bold;
+}
+/* career  part*/
+
+.section-title
+{
+    color: #f1e6ec;
+}
+
+.career-content {
+    width: 100%;
+    text-align:left;
+    padding-left: 50px;
+    background-color: #FF42A5;
+    display: flex;
+}
+
+.career-content h2 {
+    margin-bottom: 20px;
+}
+
+
+.section-topic{
+    color: #FFF;
+}
+
+.see-btn {
+    background: #f4f6f7;
+    margin: 25px 0px;
+}
+.pr-btn {
+    padding: 20px 40px;
+    border-radius: 48px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FF42A5;
+    border: none;
+}
+
+
+/* footer */
+footer {
+    background: #0B0223;
+    color: white;
+    margin: 0px auto;
+}
+
+.footer-content {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 100px 240px 50px;
+}
+
+.footer-logo {
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.foot-item,
+.follow-icon,
+.terms,
+.all-rights {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+
+.foot-item a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 15px;
+
+}
+
+.foot-item a:hover {
+    color: #534C64;
+    cursor: pointer;
+    background: white;
+    box-shadow: 2px 2px 5px #534C64;
+    border-radius: 25px;
+}
+
+.terms,
+.all-rights p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
